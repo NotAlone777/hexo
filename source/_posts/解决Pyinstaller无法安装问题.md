@@ -7,6 +7,7 @@ categories:
 date: 2021-05-16 23:19:21
 data: 2019-11-14 18:34:13
 summary: 使用setup.py安装Pyinstaller
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 
 今天用传统的`pip`安装`Pyinstaller`竟然翻车了，既然用`pip`不能够正常安装，那就采用其它的安装方法，本文采用`setup.py`来安装`Pyinstaller`

@@ -7,6 +7,7 @@ tags:
 categories:
   - Python
 summary: MiniConda基础配置
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/conda.png&raw=true
 ---
 # Windows
 ## MiniConda安装

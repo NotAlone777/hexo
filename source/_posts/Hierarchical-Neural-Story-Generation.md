@@ -6,7 +6,7 @@ tags:
  - NLP
  - NLG
 categories: 文本生成
-mathjax: true
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/paper_review.png&raw=true
 ---
 
 ### 概括

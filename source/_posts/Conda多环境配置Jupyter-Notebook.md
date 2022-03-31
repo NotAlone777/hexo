@@ -7,6 +7,7 @@ tags:
 categories:
   - Python
 summary: 为多个Conda环境的Jupyter配置内核
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/conda.png&raw=true
 ---
 ## Windows
 

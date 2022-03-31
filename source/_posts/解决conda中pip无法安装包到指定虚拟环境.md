@@ -7,6 +7,7 @@ tags:
 categories:
   - Python
 summary: 解决在conda其它虚拟环境中使用pip安装包却安装到base环境中
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/conda.png&raw=true
 ---
 ## Windows
 

@@ -6,6 +6,7 @@ tags:
   - Termux
 categories: Android
 summary: 修复在Android 10以上版本termux-chroot无法使用的问题
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/termux.png&raw=true
 ---
 这几天心血来潮去玩`termux`，结果最难受的是突然发现`termux-chroot`命令无法使用，经过在茫茫网络中的搜索，终于在GitHub上找到了解决方案。
 

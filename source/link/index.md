@@ -1,6 +1,5 @@
 ---
-title:
-  '[object Object]': null
+title: "友链"
 date:
   '[object Object]': null
 type: "link"

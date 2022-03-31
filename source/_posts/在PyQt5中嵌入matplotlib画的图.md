@@ -7,6 +7,7 @@ tags:
 categories: 
   - Python
 summary: 使用matplotlib模块来绘制统计图，并且嵌入到PyQt5窗体中
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 前段时间写程序，要在PyQt5中插入统计图，在网上查了很多资料，这里整理一下。
 

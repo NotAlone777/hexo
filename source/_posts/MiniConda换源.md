@@ -8,6 +8,7 @@ tags:
 categories:
   - Python
 summary: MiniConda换源
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/conda.png&raw=true
 ---
 ### Windows
 #### 方法一

@@ -7,6 +7,7 @@ categories:
   - Termux
 summary: 给Termux添加额外的快捷键，方便在手机上输入特殊符号
 date: 2021-05-16 23:18:04
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/termux.png&raw=true
 ---
 
 在手机上使用Termux时，有些符号经常使用，但是输入又不太方便，所以修改下默认的Termux的拓展键盘，添加一些常用的符号。

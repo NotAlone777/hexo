@@ -7,6 +7,7 @@ tags:
 - Python
 - Windows
 summary: 打包Python程序为.exe文件的基本方法
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 由于经常要打包python的写的程序为`.exe`应用程序，写下来备忘。
 

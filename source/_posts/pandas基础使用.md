@@ -6,6 +6,7 @@ tags:
 categories:
   - Python
 summary: pandas常用基础语法总结
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 
 ### 1. pandas支持文件类型表格

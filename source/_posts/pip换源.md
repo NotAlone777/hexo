@@ -8,6 +8,7 @@ date: 2021-05-16 18:40:51
 categories:
   - Python
 summary: pip换源的基本操作
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 由于经常给别人配置python环境，把pip换源过程记录一下。
 

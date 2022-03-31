@@ -6,6 +6,7 @@ categories:
 tags:
 - Python
 summary: Python数字字符串排序
+cover: https://od.alonesoul.club/api?path=/Blog/hexo/python.png&raw=true
 ---
 
 ### 源码：
