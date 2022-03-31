@@ -655,6 +655,15 @@
   dependencies:
     "chalk" "^4.0.0"
 
+"hexo-math@^4.0.0":
+  "integrity" "sha512-oMVa9bVXljQ8F3y0euVwOhkkiTfH3vxEV+dWT7lWbxNjtxV9MvpTG4BkDNSgM1frv+sP549FuPx39KqqEHmAgA=="
+  "resolved" "https://registry.npmjs.org/hexo-math/-/hexo-math-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "hexo-util" "^2.2.0"
+    "katex" "^0.12.0"
+    "mathjax" "^3.0.5"
+
 "hexo-pagination@1.0.0":
   "integrity" "sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA=="
   "resolved" "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-1.0.0.tgz"
@@ -696,7 +705,7 @@
     "open" "^7.0.0"
     "serve-static" "^1.14.1"
 
-"hexo-util@^2.0.0", "hexo-util@^2.4.0":
+"hexo-util@^2.0.0", "hexo-util@^2.2.0", "hexo-util@^2.4.0":
   "integrity" "sha512-IPQvAyn0cznYMU2gskMiZ6LZEvN7wHNusrJoYxrir4f7S7POpZeDTBswiko9R1qqd+/hu07wUYZdm4ceTTCEaA=="
   "resolved" "https://registry.npmjs.org/hexo-util/-/hexo-util-2.4.0.tgz"
   "version" "2.4.0"
@@ -910,6 +919,13 @@
   dependencies:
     "commander" "^2.19.0"
 
+"katex@^0.12.0":
+  "integrity" "sha512-y+8btoc/CK70XqcHqjxiGWBOeIL8upbS0peTPXTvgrh21n1RiWWcIpSWM+4uXq+IAgNh9YYQWdc7LVDPDAEEAg=="
+  "resolved" "https://registry.npmjs.org/katex/-/katex-0.12.0.tgz"
+  "version" "0.12.0"
+  dependencies:
+    "commander" "^2.19.0"
+
 "linkify-it@^2.0.0":
   "integrity" "sha512-GnAl/knGn+i1U/wjBz3akz2stz+HrHLsxMwHQGofCDfPvlf+gDKN58UtfmUquTY4/MXeE2x7k19KQmeoZi94Iw=="
   "resolved" "https://registry.npmjs.org/linkify-it/-/linkify-it-2.2.0.tgz"
@@ -979,6 +995,11 @@
     "linkify-it" "^2.0.0"
     "mdurl" "^1.0.1"
     "uc.micro" "^1.0.5"
+
+"mathjax@^3.0.5":
+  "integrity" "sha512-PL+rdYRK4Wxif+SQ94zP/L0sv6/oW/1WdQiIx0Jvn9FZaU5W9E6nlIv8liYAXBNPL2Fw/i+o/mZ1212eSzn0Cw=="
+  "resolved" "https://registry.npmjs.org/mathjax/-/mathjax-3.2.0.tgz"
+  "version" "3.2.0"
 
 "mdurl@^1.0.1":
   "integrity" "sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4="

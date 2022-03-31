@@ -14,9 +14,7 @@ mathjax: true
 
 1. 生成提示可以使故事生成具有基础，这样生成的故事就不会轻易偏离主题，这在`Seq2Seq`模型中很常见。
 2. 标准的`Seq2Seq`模型往往会忽略提示，因此他们提出了解决此问题的方案。
-$$
-g_{t} = \sigma(W[h_{t}^{Training}; h_{t}^{Pretrained}] + b)
-$$
+
 ### CNN Seq2Seq的优势
 本文采用`CNN Seq2Seq`模型，相比于`RNN Seq2Seq`有两个优点：
 
