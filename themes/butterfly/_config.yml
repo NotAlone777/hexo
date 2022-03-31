@@ -65,7 +65,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -73,7 +73,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: mdeias/favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -297,12 +297,17 @@ gitalk:
 valine:
   appId: zhy9ncmTumIhye7FaHr8wTcJ-MdYXbMMI # leancloud application app id
   appKey: c5tdsVNOgySGS4VSnfT6Scxs # leancloud application app key
-  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: https://alonesoul.avosapps.us/ # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  pageSize: 10 # comment list page size
+  avatar: wavatar # gravatar style https://valine.js.org/#/avatar
+  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+  placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
+  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
+  recordIP: false # Record reviewer IP
+  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /medias/comment_bg.png # valine background
-  visitor: false
-  option:
-
+  emojiCDN: # emoji CDN
+  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  requiredFields: nick,mail # required fields (nick/mail)
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
