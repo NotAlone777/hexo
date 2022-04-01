@@ -10,18 +10,18 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  统计: /charts || fas fa-charts
+  # 统计: /charts || fas fa-charts
   友链: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 300 # unit: px
 code_word_wrap: false
 
 # copy settings
@@ -464,7 +464,7 @@ theme_color:
   main: "#49B1F5"
   paginator: "#00c4b6"
   button_hover: "#FF7242"
-  text_selection: "#00c4b6"
+  text_selection: "#eb5055"
   link_color: "#99a9bf"
   meta_color: "#858585"
   hr_color: "#A4D8FA"
@@ -831,10 +831,11 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  
+    # 鼠标指针
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <script defer data-pjax src="/js/sakura.js"></script>
+    # - <script defer data-pjax src="/js/sakura.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
