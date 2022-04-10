@@ -11,8 +11,11 @@ summary: MiniConda换源
 cover: https://od.alonesoul.club/api?path=/Blog/hexo/conda.png&raw=true
 ---
 ### Windows
+
 #### 方法一
--  打开`CMD`依次输入如下命令：
+
+- 打开 `CMD`依次输入如下命令：
+
 ```shell
 # 添加清华Conda镜像
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -20,7 +23,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 # conda install安装Python包时显示来自于哪个源
 conda config --set show_channel_urls yes
 # 添加pytorch
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud//pytorch/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 # 添加conda-forge
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 # 添加msys2
@@ -33,8 +36,10 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 ```
 
 #### 方法二
+
 1. 打开 `CMD`输入 `conda config<br>`
-2. 按 <kbd>`win`</kbd>+<kbd>`R`</kbd>打开运行，输入 `%path%`点击确定会打开一个文件夹，找到 `.condarc`，打开输入以下内容（豆瓣源，清华源二选一）
+2. 按 `<kbd>win``</kbd>`+`<kbd>R``</kbd>`打开运行，输入 `%path%`点击确定会打开一个文件夹，找到 `.condarc`，打开输入以下内容（豆瓣源，清华源二选一）
+
 - 豆瓣源
   ```
   channels:
@@ -69,11 +74,13 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
     pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
     simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   ```
+
 3. 在终端输入 `conda clean -i`清除缓存
 
-
 ### Conda配置代理
-打开`.condarc`，添加如下代码，其中`xxxx`代表代理的端口号
+
+打开 `.condarc`，添加如下代码，其中 `xxxx`代表代理的端口号
+
 ```
 proxy_servers: {https: http://localhost:xxxx}
 ```
