@@ -38,7 +38,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 #### 方法二
 
 1. 打开 `CMD`输入 `conda config<br>`
-2. 按 `<kbd>win``</kbd>`+`<kbd>R``</kbd>`打开运行，输入 `%path%`点击确定会打开一个文件夹，找到 `.condarc`，打开输入以下内容（豆瓣源，清华源二选一）
+2. 按 <kbd>win</kbd>+<kbd>R</kbd>打开运行，输入 `%path%`点击确定会打开一个文件夹，找到 `.condarc`，打开输入以下内容（豆瓣源，清华源二选一）
 
 - 豆瓣源
   ```
