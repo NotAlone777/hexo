@@ -87,6 +87,6 @@ markdown:
       options:
         strict: false
 lazyload: 
-	enable: true # 是否开启图片懒加载 
+	enable: false # 是否开启图片懒加载 
 	onlypost: false # 是否只对文章的图片做懒加载 
 	loadingImg: mdeias/cat.gif
